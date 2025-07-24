@@ -10,10 +10,7 @@ export default defineConfig({
     reactRouter(), 
     tsconfigPaths()
   ],
-  build: {
-    outDir: 'dist',
-  },
-  base: "/router-pro/",
+  // base: "/router-pro/",
   server: {
     port: 3000,
     },
